@@ -66,7 +66,7 @@ def command_helper(label, command, sudo):
 
 if __name__ == '__main__':
   # In case it wasn't set previously 
-  environ['DOTFILES'] = DOTFILES_PATH
+  #environ['DOTFILES'] = DOTFILES_PATH
   
   # check if brew installed
   try: 

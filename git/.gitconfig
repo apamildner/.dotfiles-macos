@@ -1,7 +1,7 @@
 [user]
-	name = Jon Johansen
-	email = jonjohansen2k@gmail.com
-	username = jonjohansen
+	name = Arvid Mildner
+	email = mildner.arvid@gmail.com
+	username = arvid
 [core]
 	excludesfile = ~/.gitignore
 	editor = code --wait
@@ -31,7 +31,4 @@
 	fixup = commit --amend --no-edit
 	alias = config --global alias.
 	wip = add . && git commit -m "wip" --no-verify
-
-[includeIf "gitdir:~/bekk/"]
-  path = ~/bekk/.gitconfig
 
