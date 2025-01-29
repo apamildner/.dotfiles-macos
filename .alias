@@ -2,3 +2,8 @@
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias reload="source ~/.zshrc && clear"
 alias chrome="open -a 'Google Chrome'"
+alias gst="git status"
+alias zsh="vi ~/.zshrc"
+alias srczsh="source ~/.zshrc"
+alias pwdcp="pwd | pbcopy"
+alias gaa="git add ."

@@ -1,5 +1,9 @@
-# Add homebrew to path
-export PATH=/opt/homebrew/bin/:$PATH
+# Add homebrew to path if not already added
+if [[ ":$PATH:" != *":/opt/homebrew/bin:"* ]]; then
+  export PATH="/opt/homebrew/bin:$PATH"
+fi
 
-# Add custom scripts folder to path
-export PATH=$DOTFILES/scripts:$PATH
+# Add custom scripts folder to path if not already added
+if [[ ":$PATH:" != *":$DOTFILES/scripts:"* ]]; then
+  export PATH="$DOTFILES/scripts:$PATH"
+fi

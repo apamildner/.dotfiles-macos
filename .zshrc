@@ -17,6 +17,7 @@ export STARSHIP_CONFIG=$DOTFILES/starship.toml
 source $DOTFILES/.path
 # Load aliases
 source $DOTFILES/.alias
+source $DOTFILES/.environment_vars
 
 # Autojump
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh

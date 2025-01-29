@@ -17,7 +17,6 @@ brew 'zsh-syntax-highlighting'
 
 # Apps
 cask 'rectangle'
-cask 'google-chrome'
 cask 'visual-studio-code'
 cask 'spotify'
 cask '1password'
