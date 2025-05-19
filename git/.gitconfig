@@ -52,3 +52,8 @@
 	# Based on code in https://stackoverflow.com/questions/1761825/referencing-the-child-of-a-commit-in-git/21032988
 	child = !sh -c 'git log --format=%H --reverse --ancestry-path ${0:-HEAD}..${1:\"$(git rev-parse --abbrev-ref HEAD)\"} | head -1'
 
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

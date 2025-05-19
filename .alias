@@ -7,3 +7,4 @@ alias zsh="vi ~/.zshrc"
 alias srczsh="source ~/.zshrc"
 alias pwdcp="pwd | pbcopy"
 alias gaa="git add ."
+alias killport='f(){ kill -9 $(lsof -ti :$1); }; f'

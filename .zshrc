@@ -36,8 +36,9 @@ if type brew &>/dev/null; then
   autoload -Uz compinit
   compinit
 fi
-
+eval "$(nodenv init - zsh)"
 # Additional syntax highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 eval "$(starship init zsh)"
+eval "$(pyenv init - zsh)"
